@@ -1,0 +1,22 @@
+  
+::placeholder {
+    color: coral;
+    font-size: 0.8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#virtualMoney {
+    margin: 10px;
+}
+
+div {
+    align-items: center;
+    text-align: center;
+}
+button:disabled,
+button[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: red;
+  }
